@@ -1,0 +1,11 @@
+@Reservations.Api_HostAddress = http://localhost:5288
+
+GET {{Reservations.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Reservations.Api_HostAddress}}/api/ping
+Accept: application/json
+
+###
